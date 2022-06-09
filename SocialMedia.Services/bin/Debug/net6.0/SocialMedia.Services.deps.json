@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SocialMedia.Services/1.0.0": {
+        "dependencies": {
+          "SocialMedia.Data": "1.0.0",
+          "SocialMedia.Models": "1.0.0"
+        },
+        "runtime": {
+          "SocialMedia.Services.dll": {}
+        }
+      },
+      "SocialMedia.Data/1.0.0": {
+        "runtime": {
+          "SocialMedia.Data.dll": {}
+        }
+      },
+      "SocialMedia.Models/1.0.0": {
+        "dependencies": {
+          "SocialMedia.Data": "1.0.0"
+        },
+        "runtime": {
+          "SocialMedia.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SocialMedia.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SocialMedia.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SocialMedia.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

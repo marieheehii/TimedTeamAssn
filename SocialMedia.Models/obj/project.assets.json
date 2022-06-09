@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "SocialMedia.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SocialMedia.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SocialMedia.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SocialMedia.Data/1.0.0": {
+      "type": "project",
+      "path": "../SocialMedia.Data/SocialMedia.Data.csproj",
+      "msbuildProject": "../SocialMedia.Data/SocialMedia.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "SocialMedia.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Hanyo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\144_immersions\\TimedAssn\\SocialMedia.Models\\SocialMedia.Models.csproj",
+      "projectName": "SocialMedia.Models",
+      "projectPath": "C:\\144_immersions\\TimedAssn\\SocialMedia.Models\\SocialMedia.Models.csproj",
+      "packagesPath": "C:\\Users\\Hanyo\\.nuget\\packages\\",
+      "outputPath": "C:\\144_immersions\\TimedAssn\\SocialMedia.Models\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Hanyo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\144_immersions\\TimedAssn\\SocialMedia.Data\\SocialMedia.Data.csproj": {
+              "projectPath": "C:\\144_immersions\\TimedAssn\\SocialMedia.Data\\SocialMedia.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
