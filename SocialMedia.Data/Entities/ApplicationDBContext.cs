@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-
-    public class Like
+namespace SocialMedia.Data.Entities
+{
+    public class ApplicationDBContext
     {
-        public int Id { get; set; }
+        
     }
+}
