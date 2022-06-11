@@ -5,14 +5,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-public class Comment
+public class CommentDetail
 {
-    [Key]
-    public int ID { get; set; }
     [Required]
     public string Text { get; set; }
     public virtual List<Reply> Replies { get; set; }
 
     [ForeignKey(nameof(Post))]
     public Post PostID { get; set; }
-    }
+
+}

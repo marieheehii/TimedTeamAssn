@@ -10,4 +10,5 @@ public class SocialMedia_DbContext : DbContext
     { }
 
     public DbSet<UserEntity> Users { get; set; }
+    public DbSet<Comment> Comments { get; set; }
 }

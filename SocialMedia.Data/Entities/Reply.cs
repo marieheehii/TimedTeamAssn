@@ -8,9 +8,11 @@ using System.Threading.Tasks;
     public class Reply
     {
         [Key]
-        public int Id { get; set; }
+        public int ID { get; set; }
+
         [ForeignKey(nameof(Comment))]
         public Comment CommentId { get; set; }
+
         [Required]
         public string Text { get; set; }
         

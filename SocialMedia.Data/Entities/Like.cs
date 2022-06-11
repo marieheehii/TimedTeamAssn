@@ -5,5 +5,5 @@ using System.Threading.Tasks;
 
     public class Like
     {
-        public int Id { get; set; }
+        public int ID { get; set; }
     }

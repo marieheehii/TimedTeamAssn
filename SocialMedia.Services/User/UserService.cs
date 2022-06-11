@@ -7,13 +7,28 @@ using Microsoft.EntityFrameworkCore;
 
 public class UserService : iUserService
 {
-    public Task<UserDetail> GetUserByIDAsync(int userId)
+    private readonly SocialMedia_DbContext _context;
+    public UserService(SocialMedia_DbContext context)
     {
-        throw new NotImplementedException();
+        _context = context;
     }
 
-    public Task<bool> RegisterUserAsync(UserRegister model)
+    public async Task<bool> RegisterUserAsync(UserRegister model)
     {
-        throw new NotImplementedException();
+        var entity = new UserEntity
+        {
+            Email = model.Email,
+            Username = model.Username,
+            DateJoined = DateTime.Now
+        };
+
+        var passwordHasher = new PasswordHasher<UserEntity>();
+
+        entity.Password = passwordHasher.HashPassword(entity, model.Password);
+
+        _context.Users.Add(entity);
+        var numberOfChanges = await _context.SaveChangesAsync();
+
+        return numberOfChanges == 1;
     }
-}
+    }
