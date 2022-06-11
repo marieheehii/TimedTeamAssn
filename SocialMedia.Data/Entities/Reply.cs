@@ -11,7 +11,9 @@ using System.Threading.Tasks;
         public int ID { get; set; }
 
         [ForeignKey(nameof(Comment))]
-        public Comment CommentId { get; set; }
+        public Comment Comments { get; set; }
+        [NotMapped]
+        public int CommentID { get; set; }
 
         [Required]
         public string Text { get; set; }

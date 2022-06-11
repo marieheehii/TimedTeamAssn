@@ -16,7 +16,7 @@ public class CommentService : iComment
         var comment = new Comment
         {
             Text = model.Text,
-            PostID = model.PostID
+            // PostID = model.PostID
         };
 
         _context.Comments.Add(comment);
@@ -28,7 +28,7 @@ public class CommentService : iComment
     public async Task<IEnumerable<CommentDetail>> GetCommentsByPostID()
     {
         var comments = await _context.Comments
-        // .Where(comments => comments.PostID == UserDetail)
+        // Where(comments => comments.ID == PostID)
         .Select(comments => new CommentDetail
         {
             Text = comments.Text,
