@@ -12,6 +12,7 @@ public class CommentDetail
     public virtual List<Reply> Replies { get; set; }
 
     [ForeignKey(nameof(Post))]
-    public Post PostID { get; set; }
+    public int PostID { get; set; }
+    public Post Posts { get; set; }
 
 }

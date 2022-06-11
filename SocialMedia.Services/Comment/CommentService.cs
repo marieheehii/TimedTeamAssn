@@ -13,13 +13,13 @@ public class CommentService : iComment
     }
     public async Task<bool> CreateCommentAsync(CommentDetail model)
     {
-        var comment = new Comment
+        var comment = new CommentDetail
         {
             Text = model.Text,
-            // PostID = model.PostID
+            PostID = model.PostID
         };
 
-        _context.Comments.Add(comment);
+        _context.Comments.Add(CommentDetail);
         var numberOfChanges = await _context.SaveChangesAsync();
 
         return numberOfChanges == 1;
@@ -27,9 +27,9 @@ public class CommentService : iComment
 
     public async Task<IEnumerable<CommentDetail>> GetCommentsByPostID()
     {
-        var comments = await _context.Comments
-        // Where(comments => comments.ID == PostID)
-        .Select(comments => new CommentDetail
+        var comments = _context.Comments
+        // .Where(comments => comments.ID == PostID)
+        .Select(comments => new Comment
         {
             Text = comments.Text,
         })
