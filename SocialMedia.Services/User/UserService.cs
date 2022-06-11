@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-public class UserService : iUserService
+public class UserService : IUserService
 {
     private readonly SocialMedia_DbContext _context;
     public UserService(SocialMedia_DbContext context)

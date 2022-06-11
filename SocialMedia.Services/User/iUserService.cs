@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-    public interface iUserService
+    public interface IUserService
     {
         Task<bool> RegisterUserAsync(UserRegister model);
 

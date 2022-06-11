@@ -14,14 +14,6 @@ C:/144_immersions/TimedAssn/SocialMedia.Models/obj/Debug/net6.0/refint/SocialMed
 C:/144_immersions/TimedAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.pdb
 C:/144_immersions/TimedAssn/SocialMedia.Models/obj/Debug/net6.0/ref/SocialMedia.Models.dll
 <<<<<<< HEAD
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.csproj.AssemblyReference.cache
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.GeneratedMSBuildEditorConfig.editorconfig
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.AssemblyInfoInputs.cache
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.AssemblyInfo.cs
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.csproj.CoreCompileInputs.cache
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.dll
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/ref/SocialMedia.Models.dll
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.pdb
 =======
 >>>>>>> 7d594fa7d48f79d5de8d814b654d06bf951f2794
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/bin/Debug/net6.0/SocialMedia.Models.deps.json
@@ -30,4 +22,12 @@ C:/144_immersions/TimedAssn/SocialMedia.Models/obj/Debug/net6.0/ref/SocialMedia.
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/bin/Debug/net6.0/SocialMedia.Models.pdb
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/bin/Debug/net6.0/SocialMedia.Data.dll
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/bin/Debug/net6.0/SocialMedia.Data.pdb
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.csproj.AssemblyReference.cache
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.AssemblyInfoInputs.cache
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.AssemblyInfo.cs
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.csproj.CoreCompileInputs.cache
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.csproj.CopyComplete
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.dll
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/ref/SocialMedia.Models.dll
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Models/obj/Debug/net6.0/SocialMedia.Models.pdb
